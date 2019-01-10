@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Devslopes</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="styles.css" />
+    <script src="main.js"></script>
+</head>
+
+<body>
+    <nav>
+        <ul class="topnav" id="dropDownClick">
+            <li><a href="#Home">Home</a></li>
+            <li><a href="#News">News</a></li>
+            <li><a href="#Contact">Contact</a></li>
+            <li><a href="#About">About</a></li>
+            <li class="floatRight"><a href="#Signup">Sign Up</a></li>
+            <li class="floatRight"><a href="#Signin">Sign In</a></li>
+            <li class="dropDown"><a href="javascript:void(0);" onclick="dropDownMenu()">&#9776;</a></li>
+        </ul>
+    </nav>
+    <div class="container" id="formGroup-gradient">
+        <div class="row">
+            <div class="col-6">
+                <div class="left-align">
+                    <h1 class="large">Crazy Radness</h1>
+                    <h1 class="large">Made for Devslopers</h1>
+                </div>
+                <form>
+                    <div class="left-align">
+                        <h2>Username:</h2>
+                        <input class="input1" type="text" placeholder="Username" required>
+                        <h2>Password:</h2>
+                        <input class="input1" type="password" placeholder="Password" required>
+                    </div>
+                </form>
+            </div>
+            <div class="col-6">
+                <div class="right-align">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/rYeSA1vgIUE" frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+    <header>
+        <h1 class="section2Header">The Standards of Awesomeness</h1>
+    </header>
+    <div class="container">
+        <div class="row">
+            <div class="col-4">
+                <div class="box">
+                    <div class="icon">
+                        <img src="devIcon.png">
+                    </div>
+                    <label>Chat With Me</label>
+                    <p class="boxText">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                        incididunt ut labore et dolore."</p>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="box">
+                    <div class="icon">
+                        <img src="devIcon.png">
+                    </div>
+                    <label>Learn to Code</label>
+                    <p class="boxText">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                        incididunt ut labore et dolore."</p>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="box">
+                    <div class="icon">
+                        <img src="devIcon.png">
+                    </div>
+                    <label>Build an Empire</label>
+                    <p class="boxText">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                        incididunt ut labore et dolore."</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <button class="learnMore">Learn More</button>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <div class="container">
+        <div class="row">
+            <div class="col-6">
+                <p class="section3Text">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                    ullamco laboris nisi ut aliquip ex ea commodo consequat."</p>
+            </div>
+            <div class="col-6 slope">
+                <img class="iOS" src="iOS_Slope.png">
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-3">
+                    <div class="footCol">
+                        <h1>Company</h1>
+                        <ul class="listFooter">
+                            <li><a href="#About">About</a></li>
+                            <li><a href="#Blogs">Blogs</a></li>
+                            <li><a href="#Careers">Careers</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="footCol">
+                        <h1>Company</h1>
+                        <ul class="listFooter">
+                            <li><a href="#About">About</a></li>
+                            <li><a href="#Blogs">Blogs</a></li>
+                            <li><a href="#Careers">Careers</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="footCol">
+                        <h1>Company</h1>
+                        <ul class="listFooter">
+                            <li><a href="#About">About</a></li>
+                            <li><a href="#Blogs">Blogs</a></li>
+                            <li><a href="#Careers">Careers</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="footCol">
+                        <h1>Company</h1>
+                        <ul class="listFooter">
+                            <li><a href="#About">About</a></li>
+                            <li><a href="#Blogs">Blogs</a></li>
+                            <li><a href="#Careers">Careers</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        function dropDownMenu() {
+            let x = document.getElementById("dropDownClick");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        };
+    </script>
+
+</body>
+
+</html>
